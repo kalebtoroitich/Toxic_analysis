@@ -13,7 +13,7 @@ def preprocess_comment(comment):
 # Function to predict toxicity
 def predict_toxicity(comment):
     # Load your trained model here
-    model = load_model("toxicity_model.h5")  
+    model = load_model("toxicity.h5")  
 
     # Tokenize and pad the comment
     # Add your tokenization and padding logic here based on how the model was trained
